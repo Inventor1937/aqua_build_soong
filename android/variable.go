@@ -97,8 +97,8 @@ type variableProperties struct {
 			Enabled *bool
 		}
 
-		// include Slim variables
-		Slim android.Product_variables
+		// include Aquarios variables
+		Aquarios android.Product_variables
 	} `android:"arch_variant"`
 }
 
@@ -173,8 +173,8 @@ type productVariables struct {
 
 	DeviceKernelHeaders []string `json:",omitempty"`
 
-	// include Slim variables
-	Slim android.ProductVariables
+	// include Aquarios variables
+	Aquarios android.ProductVariables
 }
 
 func boolPtr(v bool) *bool {
